@@ -33,3 +33,8 @@ People can work in different branches one group working in maintain the main bra
 How do the diagrams help you visualize the branch structure?
 
 They help me visualize the reachable commits and where do my branchs/history diverge so when I want to merge them I know what one branch has and the other dont.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+One branch with the commits of both branches, because the history of the two branches are merged into one with a commit that points to both branches.
