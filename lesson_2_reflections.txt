@@ -21,3 +21,10 @@ commit the changes that are logically related. You can use the staging area to c
 it to the contents of the last commit in the repository and to the contents in the working directory.
 
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When you want to add some feature, refactor the code, fix some bug and the master branch needs to be usable by other program/person.
+Branches let you keep these changes away from the main branch(master) and
+you can still show the working version in a easier way in a commit with a name (master, you dont need to remember or save the commit id of a working version).
+When your feature/fix/refactoring is ready you can merge these two branches and make the changes available to the main branch.
+People can work in different branches one group working in maintain the main branch fixing bugs and the other group working in creating a feature without having to worry if the main branch can't be deployed/utilized/shown.
