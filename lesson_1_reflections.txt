@@ -1,0 +1,47 @@
+I needed less time to verify where the changes were made.
+Less confusion, because i needed to spend less time reading the code.
+
+I can see what a programmer toughts were when he created a feature in the application.
+I can see where did I make a mistake or how i came to that conclusion after several days/months/years
+that i writed the feature in the app.
+I can go back in time to a version that suits my current needs.
+
+What do you think are the pros and cons of manually choosing when to
+create a commit, like you do in Git, vs having versions automatically saved,j
+like Google Docs does?
+
+Pros:   versions matter and they are probably separated in logical chunks
+        (the content of a commit is related, examples: add a specific feature, test a feature, fix a typo).
+        The history is smaller so to find what you want is easier and faster.
+
+Cons:   if you forgot to commit there is not always a version of your file in a remote place.
+        If you don't commit every change your code is not always safe because it is sitting on
+        a computer that can fail, hard drive failures, technical support changing disks e etc...
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs,
+treat each file separately?
+
+Because some features and changes need to be coded in different files, and 
+the state of your application changes when you modify these files, and git saves
+the state of your application when you decided to commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log you can use to search for a commit message, date or commit id so
+you can see what change were made with git diff or git show.
+git diff show the difference between two commits if you want to see the
+difference between the commit you wanna and the previous commit you
+can use the command: git show <commit id>
+
+How might using version control make you more confident to make changes that
+could break something?
+
+You can always go back to a working version, you can have separated branchs
+with the same feature being implemented different ways.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Merge conflicts and stash
