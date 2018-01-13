@@ -10,3 +10,14 @@ How is the staging area different from the working directory and the repository?
 The staging area is an intermediate area where you can add files to make logically separated commits even if you
 made several non related changes you can make your commits reflect the logical changes using the staging area.
 Sometime you can have files you don't want in the commit and sometime you want files to not be in the repository at all(private information, database pass, public ip, secret key for hashing passwords), the staging area makes it really easy to control what goes in the repository(what gets tracket).
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use the command "git diff --staged" to see if the changes are logically
+related and if not you can remove from the staging area the files that are not
+related and put them in the working directory to be commited later, and only
+commit the changes that are logically related. You can use the staging area to compare
+it to the contents of the last commit in the repository and to the contents in the working directory.
+
+
