@@ -28,3 +28,8 @@ Branches let you keep these changes away from the main branch(master) and
 you can still show the working version in a easier way in a commit with a name (master, you dont need to remember or save the commit id of a working version).
 When your feature/fix/refactoring is ready you can merge these two branches and make the changes available to the main branch.
 People can work in different branches one group working in maintain the main branch fixing bugs and the other group working in creating a feature without having to worry if the main branch can't be deployed/utilized/shown.
+
+
+How do the diagrams help you visualize the branch structure?
+
+They help me visualize the reachable commits and where do my branchs/history diverge so when I want to merge them I know what one branch has and the other dont.
