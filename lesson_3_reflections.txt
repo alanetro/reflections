@@ -8,3 +8,14 @@ Why might you want to always pull changes manually rather than having Git automa
 
 You can have conflicts. If multiple people are working in the same branch and file the file will be changing all the time making difficult to people to reason about the changes that they are making and the changings that are coming from the remote.
 Maybe you don't want the changes made by other contributors because they inserted a bug in the code or you want to diverge from the history to make your changes a feature branch in the future.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork is a Github feature to create a clone of a repository inside the Github platform and refer this cloned repository back to its parent.
+Clone is the act of cloning/copyng(the repository with the .git folder with metadata) a local or remote repository to a computer.
+Branches are names for commits in a repository the branch can have divergence from other branches or have the same commits.
+
+Fork when I don't have write access to a repository or when I want to make a radical change in a project that have a git repository.
+Clone is when I want to have another copy of a remote/local repository so I can make changes and view the content.
+Branches are created when you want to make a change in a repository without making the "main branch" inutilizable.
