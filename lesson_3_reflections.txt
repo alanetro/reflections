@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Always, your computer can fail and your work will be lost. You can share the content of a repository with someone that uses the same computer network.
+You can edit your repository on the go if you use the global computer network and you remote repository is on a computer that's reachable by the network.
