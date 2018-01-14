@@ -19,3 +19,8 @@ Branches are names for commits in a repository the branch can have divergence fr
 Fork when I don't have write access to a repository or when I want to make a radical change in a project that have a git repository.
 Clone is when I want to have another copy of a remote/local repository so I can make changes and view the content.
 Branches are created when you want to make a change in a repository without making the "main branch" inutilizable.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+See the latest changes to not make the same changes again. Have a "better" version of the software (ex? with color, new features).
