@@ -30,3 +30,10 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 Probably I woul use SVN or another distributed version control system (mercurial). Easier: SVN has a better GUI but it is not a distributed VCS.
 Harder: Mercurial is a new technology so i would have to learn that.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When you want to collaborate with others.
+The separate branch workflow let you work in a pull request manner and gives your team confidence that the code in the "main branch" will be code that was reviewed and works (passed all the tests). This pull request workflow makes it harder to change the "main branch" but makes the "main branch" less susceptible to errors and enables collaboration.
+Working directly in master gives you more speed when using git commands but makes more difficult to collaborate and work in groups where code review is key.
