@@ -24,3 +24,9 @@ Branches are created when you want to make a change in a repository without maki
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 See the latest changes to not make the same changes again. Have a "better" version of the software (ex? with color, new features).
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Probably I woul use SVN or another distributed version control system (mercurial). Easier: SVN has a better GUI but it is not a distributed VCS.
+Harder: Mercurial is a new technology so i would have to learn that.
