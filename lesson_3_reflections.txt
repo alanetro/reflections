@@ -2,3 +2,9 @@ When would you want to use a remote repository rather than keeping all your work
 
 Always, your computer can fail and your work will be lost. You can share the content of a repository with someone that uses the same computer network.
 You can edit your repository on the go if you use the global computer network and you remote repository is on a computer that's reachable by the network.
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+You can have conflicts. If multiple people are working in the same branch and file the file will be changing all the time making difficult to people to reason about the changes that they are making and the changings that are coming from the remote.
+Maybe you don't want the changes made by other contributors because they inserted a bug in the code or you want to diverge from the history to make your changes a feature branch in the future.
