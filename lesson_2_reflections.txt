@@ -38,3 +38,9 @@ They help me visualize the reachable commits and where do my branchs/history div
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 One branch with the commits of both branches, because the history of the two branches are merged into one with a commit that points to both branches.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Manual merges consumes more time.
+pros: Some conflicts can't be merged automatically and he gives us a chance to resolve the conflicts in a simple way.
